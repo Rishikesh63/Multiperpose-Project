@@ -8,12 +8,10 @@ The project aims to create a modern web application with a robust backend powere
 
 ## Features
 
-- **User Authentication**: Implement user authentication and authorization using Django's built-in authentication system.
-- **RESTful API**: Develop RESTful APIs using Django REST Framework to interact with the frontend.
-- **Database Management**: Utilize Django ORM to manage and interact with the database, providing seamless integration with the backend.
-- **Frontend Components**: Design and implement reusable UI components using React for a responsive and interactive user experience.
-- **State Management**: Manage application state efficiently using state management libraries such as Redux or React Context API.
-- **Routing**: Implement client-side routing for navigation within the application using React Router.
+- User Authentication: Implement user authentication and authorization using Django's built-in authentication system.
+- RESTful API: Develop RESTful APIs using Django REST Framework to interact with the frontend.
+- Database Management: Utilize Django ORM to manage and interact with the database, providing seamless integration with the backend.
+- Frontend Components: Design and implement reusable UI components using React for a responsive and interactive user experience.
 
 ## Setup Instructions
 
@@ -22,7 +20,7 @@ The project aims to create a modern web application with a robust backend powere
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Rishikesh63/your-repository.git
+   git clone https://github.com/Rishikesh63/Multiperpose-Project.git
 
    Navigate to the backend directory:
    cd myproject
@@ -33,14 +31,10 @@ python manage.py makemigration
 python manage.py migrate
 Start the Django development server:
 python manage.py runserver
+
+
 Navigate to the frontend directory:
 cd frontend
 Install dependencies:
 npm start
-Contributing
-Contributions are welcome! Please feel free to fork the repository, make pull requests, and submit issues if you encounter any problems or have suggestions for improvements.
 
-License
-This project is licensed under the MIT License.
-
-This README provides an overview of the project, its features, setup instructions for both the backend and frontend, guidelines for contributing, and license information. Feel free to customize it according to your project's specifics.
