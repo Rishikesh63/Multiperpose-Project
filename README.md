@@ -26,15 +26,15 @@ The project aims to create a modern web application with a robust backend powere
    cd myproject
    Install dependencies:
    pip install -r requirements.txt
-Run migrations to create database tables:
+##Run migrations to create database tables:
 python manage.py makemigration
 python manage.py migrate
-Start the Django development server:
+##Start the Django development server:
 python manage.py runserver
 
 
-Navigate to the frontend directory:
+##Navigate to the frontend directory:
 cd frontend
-Install dependencies:
+##Install dependencies:
 npm start
 
